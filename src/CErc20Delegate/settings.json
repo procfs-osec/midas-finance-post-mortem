@@ -1,0 +1,23 @@
+{
+	"remappings": [
+		"openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/"
+	],
+	"optimizer": {
+		"enabled": true,
+		"runs": 200
+	},
+	"metadata": {
+		"useLiteralContent": true,
+		"bytecodeHash": "none"
+	},
+	"outputSelection": {
+		"*": {
+			"*": [
+				"evm.bytecode",
+				"evm.deployedBytecode",
+				"abi"
+			]
+		}
+	},
+	"libraries": {}
+}
